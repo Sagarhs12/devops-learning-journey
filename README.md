@@ -210,13 +210,16 @@ pipeline {
     }
 }
 ```
-🌐 Live Application
-http://<EC2-PUBLIC-IP>
+---
 
+### 🌐 Live Application
+http://<EC2-PUBLIC-IP>
 
 ✔ Deployed automatically after every GitHub push
 
-🧠 Key Learnings
+---
+
+### 🧠 Key Learnings
 
 Real-world CI/CD pipeline implementation
 
@@ -228,11 +231,15 @@ Linux server management
 
 DevOps best practices
 
-📌 Project Status
+---
+
+### 📌 Project Status
 
 🟢 Completed – Fully functional CI/CD pipeline
 
-🚀 Future Enhancements
+---
+
+### 🚀 Future Enhancements
 
 Dockerized deployment
 
@@ -244,12 +251,14 @@ Monitoring with Prometheus & Grafana
 
 Cloud-native CI/CD pipelines
 
-⭐ Support
+---
+
+### ⭐ Support
 
 If you found this project useful:
-
 ⭐ Star this repository
-
 🍴 Fork and experiment
-
 🔗 Share with DevOps learners
+
+---
+

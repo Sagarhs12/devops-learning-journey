@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Cloning GitHub repository...'
+                echo 'Cloning repository...'
                 git branch: 'main',
                     url: 'https://github.com/Sagarhs12/devops-learning-journey.git'
             }
@@ -13,15 +13,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Build stage started'
-                sh 'echo "Build successful"'
+                echo 'Build completed'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Test stage started'
-                sh 'echo "All tests passed"'
+                echo 'Tests passed'
             }
         }
 
@@ -30,6 +28,7 @@ pipeline {
                 echo 'Deploying application to Apache web server'
                 sh '''
                 sudo cp index.html /var/www/html/index.html
+                sudo systemctl restart httpd
                 '''
             }
         }

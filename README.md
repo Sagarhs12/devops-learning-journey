@@ -210,14 +210,14 @@ pipeline {
     }
 }
 ```
-
 🌐 Live Application
-cpp
-Copy code
 http://<EC2-PUBLIC-IP>
+
+
 ✔ Deployed automatically after every GitHub push
 
 🧠 Key Learnings
+
 Real-world CI/CD pipeline implementation
 
 Jenkins automation & pipelines
@@ -229,9 +229,11 @@ Linux server management
 DevOps best practices
 
 📌 Project Status
+
 🟢 Completed – Fully functional CI/CD pipeline
 
 🚀 Future Enhancements
+
 Dockerized deployment
 
 Nginx reverse proxy
@@ -243,6 +245,7 @@ Monitoring with Prometheus & Grafana
 Cloud-native CI/CD pipelines
 
 ⭐ Support
+
 If you found this project useful:
 
 ⭐ Star this repository
@@ -250,4 +253,3 @@ If you found this project useful:
 🍴 Fork and experiment
 
 🔗 Share with DevOps learners
-

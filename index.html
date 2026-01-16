@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>CI/CD Pipeline Success</title>
+  <title>DevOps Learning Journey – CI/CD Pipeline</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Google Font -->
@@ -11,52 +11,80 @@
   <style>
     body {
       margin: 0;
-      height: 100vh;
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
     }
 
     .card {
       background: rgba(255, 255, 255, 0.12);
       backdrop-filter: blur(10px);
-      padding: 40px 50px;
       border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 30px;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-      text-align: center;
-      max-width: 420px;
       animation: fadeIn 1.2s ease-in-out;
     }
 
-    h1 {
-      margin-bottom: 10px;
-      font-size: 2.1rem;
+    h1, h2, h3 {
+      color: #00e676;
     }
 
-    p {
-      margin: 10px 0;
-      font-size: 1.05rem;
-      opacity: 0.95;
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    code, pre {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      overflow-x: auto;
+      display: block;
+      color: #00e676;
+      font-size: 0.9rem;
     }
 
     .badge {
       display: inline-block;
-      margin-top: 15px;
       padding: 8px 16px;
       border-radius: 20px;
       background: #00e676;
       color: #003300;
       font-weight: 600;
-      font-size: 0.9rem;
+      margin-top: 10px;
     }
 
     .footer {
-      margin-top: 25px;
-      font-size: 0.9rem;
-      opacity: 0.8;
+      text-align: center;
+      margin-top: 40px;
+      opacity: 0.85;
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: #00e676;
+      text-decoration: none;
+      font-weight: 600;
     }
 
     @keyframes fadeIn {
@@ -73,16 +101,173 @@
 </head>
 
 <body>
-  <div class="card">
-    <h1>🚀 CI/CD Pipeline Successful</h1>
-    <p>Your application has been deployed automatically</p>
-    <p>using <strong>Jenkins</strong> with zero manual intervention.</p>
 
-    <div class="badge">✔ Build • Test • Deploy</div>
+  <div class="container">
 
-    <div class="footer">
-      👨‍💻 Author: <strong>Sagar Shivappayyanamath</strong>
+    <!-- Header -->
+    <div class="card">
+      <h1>🚀 DevOps Learning Journey – 7 Day CI/CD Challenge</h1>
+      <p>
+        This project demonstrates a complete <strong>real-world CI/CD pipeline</strong>
+        built from scratch using <strong>AWS, Jenkins, GitHub, and Linux</strong>.
+      </p>
+      <div class="badge">✔ Build • Test • Deploy</div>
     </div>
+
+    <!-- Author -->
+    <div class="card">
+      <h2>👨‍💻 Author</h2>
+      <p><strong>Sagar Shivappayyanamath</strong></p>
+      <p>DevOps & Cloud Enthusiast</p>
+    </div>
+
+    <!-- Objective -->
+    <div class="card">
+      <h2>🎯 Project Objective</h2>
+      <ul>
+        <li>Understand DevOps fundamentals</li>
+        <li>Implement CI using Jenkins</li>
+        <li>Automate builds using GitHub Webhooks</li>
+        <li>Create Jenkins Pipelines using Jenkinsfile</li>
+        <li>Deploy application automatically to Apache Web Server</li>
+        <li>Build an end-to-end CI/CD workflow</li>
+      </ul>
+    </div>
+
+    <!-- Tools -->
+    <div class="card">
+      <h2>🛠️ Tools & Technologies Used</h2>
+      <ul>
+        <li><strong>Cloud:</strong> AWS EC2 (Amazon Linux 2023)</li>
+        <li><strong>CI/CD:</strong> Jenkins</li>
+        <li><strong>SCM:</strong> Git, GitHub</li>
+        <li><strong>Automation:</strong> Jenkins Pipeline (Jenkinsfile)</li>
+        <li><strong>Web Server:</strong> Apache HTTP Server</li>
+        <li><strong>OS:</strong> Linux</li>
+        <li><strong>Networking:</strong> GitHub Webhooks</li>
+      </ul>
+    </div>
+
+    <!-- Day Wise Summary -->
+    <div class="card">
+      <h2>📅 Day-wise Learning Summary</h2>
+
+      <h3>📌 Day 1 – DevOps & Linux Basics</h3>
+      <ul>
+        <li>DevOps lifecycle</li>
+        <li>Linux commands & automation concepts</li>
+      </ul>
+
+      <h3>📌 Day 2 – Git & GitHub</h3>
+      <ul>
+        <li>Git clone, add, commit, push</li>
+        <li>Branching & version control</li>
+      </ul>
+
+      <h3>📌 Day 3 – AWS EC2 & Linux Practice</h3>
+      <ul>
+        <li>Launching EC2</li>
+        <li>SSH using .pem key</li>
+        <li>Package installation using yum</li>
+      </ul>
+
+      <h3>📌 Day 4 – Jenkins CI</h3>
+      <ul>
+        <li>Jenkins installation</li>
+        <li>Freestyle CI jobs</li>
+      </ul>
+
+      <h3>📌 Day 5 – GitHub Webhooks</h3>
+      <ul>
+        <li>Webhook setup</li>
+        <li>Auto-trigger Jenkins builds</li>
+      </ul>
+
+      <h3>📌 Day 6 – Jenkins Pipeline</h3>
+      <ul>
+        <li>Declarative pipeline</li>
+        <li>Pipeline as Code</li>
+      </ul>
+
+      <h3>📌 Day 7 – CI/CD Deployment</h3>
+      <ul>
+        <li>Apache Web Server setup</li>
+        <li>Automated deployment</li>
+        <li>End-to-end CI/CD execution</li>
+      </ul>
+    </div>
+
+    <!-- Pipeline -->
+    <div class="card">
+      <h2>📜 Jenkinsfile (Pipeline as Code)</h2>
+      <pre>
+pipeline {
+  agent any
+
+  stages {
+    stage('Checkout') {
+      steps {
+        git branch: 'main',
+            url: 'https://github.com/Sagarhs12/devops-learning-journey.git'
+      }
+    }
+
+    stage('Build') {
+      steps {
+        echo 'Build completed'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        echo 'Tests passed'
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        sh '''
+        sudo cp index.html /var/www/html/index.html
+        '''
+      }
+    }
+  }
+
+  post {
+    success {
+      echo 'CI/CD Pipeline executed successfully 🎉'
+    }
+    failure {
+      echo 'CI/CD Pipeline failed ❌'
+    }
+  }
+}
+      </pre>
+    </div>
+
+    <!-- Future -->
+    <div class="card">
+      <h2>📈 Future Enhancements</h2>
+      <ul>
+        <li>Dockerized deployment</li>
+        <li>Nginx reverse proxy</li>
+        <li>Rollback strategy</li>
+        <li>Monitoring with Prometheus & Grafana</li>
+        <li>Cloud-native CI/CD</li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      👨‍💻 Author: <strong>Sagar Shivappayyanamath</strong><br>
+      🔗 GitHub:
+      <a href="https://github.com/Sagarhs12" target="_blank">
+        github.com/Sagarhs12
+      </a><br><br>
+      ⭐ If you found this project useful, consider giving it a star!
+    </div>
+
   </div>
+
 </body>
 </html>

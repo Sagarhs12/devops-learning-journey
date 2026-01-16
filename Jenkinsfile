@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     stages {
+
         stage('Checkout') {
             steps {
                 echo 'Cloning GitHub repository...'
@@ -23,14 +24,23 @@ pipeline {
                 sh 'echo "All tests passed"'
             }
         }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying application to Apache web server'
+                sh '''
+                sudo cp index.html /var/www/html/index.html
+                '''
+            }
+        }
     }
 
     post {
         success {
-            echo 'Pipeline executed successfully 🎉'
+            echo 'CI/CD Pipeline executed successfully 🎉'
         }
         failure {
-            echo 'Pipeline failed ❌'
+            echo 'CI/CD Pipeline failed ❌'
         }
     }
 }

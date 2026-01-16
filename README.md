@@ -1,149 +1,153 @@
-DevOps Learning Journey (7-Day CI/CD Project)
-# 🚀 DevOps Learning Journey – 7 Day CI/CD Challenge
+🚀 DevOps Learning Journey – 7-Day CI/CD Challenge
 
-This repository documents my **7-Day DevOps Learning Challenge**, where I built a complete **CI/CD pipeline** from scratch using **AWS, Jenkins, GitHub, and Linux**.  
-The project demonstrates real-worldCI/CD practices followed in production environments.
+This repository documents my 7-Day DevOps Learning Challenge, where I built a complete end-to-end CI/CD pipeline from scratch using AWS, Jenkins, GitHub, and Linux.
+The project demonstrates real-world CI/CD practices followed in production environments.
 
----
+👨‍💻 Author
 
-## 👨‍💻 Author
-**Sagar Shivappayyanamath**  
-DevOps & Cloud Enthusiast  
+Sagar Shivappayyanamath
+DevOps & Cloud Enthusiast
 
----
+🎯 Project Objective
 
-## 🎯 Project Objective
+The objectives of this project are to:
 
-The goal of this project is to:
-- Understand DevOps fundamentals
-- Implement CI using Jenkins
-- Automate builds using GitHub Webhooks
-- Create Jenkins Pipelines using Jenkinsfile
-- Deploy an application automatically to an Apache web server
-- Build an end-to-end CI/CD workflow
+Understand DevOps fundamentals
 
----
+Implement Continuous Integration (CI) using Jenkins
 
-## 🛠️ Tools & Technologies Used
+Automate builds using GitHub Webhooks
 
-| Category | Tools |
-|--------|------|
-| Cloud | AWS EC2 (Amazon Linux 2023) |
-| CI/CD | Jenkins |
-| SCM | Git, GitHub |
-| Automation | Jenkins Pipeline (Jenkinsfile) |
-| Web Server | Apache HTTP Server (httpd) |
-| OS | Linux |
-| Networking | GitHub Webhooks |
+Create Jenkins Pipelines using a Jenkinsfile
 
----
+Deploy an application automatically to an Apache Web Server
 
-## 📁 Repository Structure
+Build a complete end-to-end CI/CD workflow
 
-
-
+🛠️ Tools & Technologies Used
+Category	Tools
+Cloud	AWS EC2 (Amazon Linux 2023)
+CI/CD	Jenkins
+SCM	Git, GitHub
+Automation	Jenkins Pipeline (Jenkinsfile)
+Web Server	Apache HTTP Server (httpd)
+OS	Linux
+Networking	GitHub Webhooks
+📁 Repository Structure
 devops-learning-journey/
-├── DAY1.md # DevOps & Linux basics
-├── DAY2.md # Git & GitHub fundamentals
-├── DAY3.md # AWS EC2 & Linux practice
-├── DAY4.md # Jenkins installation & first CI job
-├── DAY5.md # GitHub Webhooks & automated builds
-├── DAY6.md # Jenkins Pipeline using Jenkinsfile
-├── DAY7.md # Automated deployment (CI/CD)
-├── Jenkinsfile # Jenkins pipeline configuration
-├── index.html # Sample application
-└── README.md # Project documentation
+├── DAY1.md        # DevOps & Linux basics
+├── DAY2.md        # Git & GitHub fundamentals
+├── DAY3.md        # AWS EC2 & Linux practice
+├── DAY4.md        # Jenkins installation & first CI job
+├── DAY5.md        # GitHub Webhooks & automated builds
+├── DAY6.md        # Jenkins Pipeline using Jenkinsfile
+├── DAY7.md        # Automated deployment (CI/CD)
+├── Jenkinsfile    # Jenkins pipeline configuration
+├── index.html     # Sample application
+└── README.md      # Project documentation
 
+📅 Day-wise Learning Summary
+📌 Day 1 – DevOps & Linux Basics
 
----
+Introduction to DevOps
 
-## 📅 Day-wise Learning Summary
+DevOps lifecycle
 
-### 📌 Day 1 – DevOps & Linux Basics
-- What is DevOps?
-- DevOps lifecycle
-- Linux commands (`ls`, `cd`, `mkdir`, `chmod`, `systemctl`)
-- Understanding servers and automation
+Linux commands (ls, cd, mkdir, chmod, systemctl)
 
-📄 File: `DAY1.md`
+Understanding servers and automation
 
----
+📄 File: DAY1.md
 
-### 📌 Day 2 – Git & GitHub Fundamentals
-- Git basics (`clone`, `add`, `commit`, `push`)
-- GitHub repositories
-- Branching concepts
-- Version control best practices
+📌 Day 2 – Git & GitHub Fundamentals
 
-📄 File: `DAY2.md`
+Git basics (clone, add, commit, push)
 
----
+GitHub repositories
 
-### 📌 Day 3 – AWS EC2 & Linux Practice
-- Launching EC2 instance
-- SSH access using `.pem` key
-- Amazon Linux setup
-- Installing packages using `yum`
+Branching concepts
 
-📄 File: `DAY3.md`
+Version control best practices
 
----
+📄 File: DAY2.md
 
-### 📌 Day 4 – Jenkins Installation & First CI Job
-- Installing Java & Jenkins
-- Jenkins setup on EC2
-- Creating Freestyle jobs
-- Connecting Jenkins with GitHub
+📌 Day 3 – AWS EC2 & Linux Practice
 
-📄 File: `DAY4.md`
+Launching an EC2 instance
 
----
+SSH access using .pem key
 
-### 📌 Day 5 – GitHub Webhooks & Automated Builds
-- GitHub webhook configuration
-- Auto-trigger Jenkins jobs on push
-- Jenkins GitHub integration
-- Validating webhook deliveries
+Amazon Linux setup
 
-📄 File: `DAY5.md`
+Installing packages using yum
 
----
+📄 File: DAY3.md
 
-### 📌 Day 6 – Jenkins Pipeline using Jenkinsfile
-- Declarative pipeline syntax
-- Creating Jenkinsfile
-- Stages: Checkout, Build, Test
-- Pipeline as Code concept
+📌 Day 4 – Jenkins Installation & First CI Job
 
-📄 File: `DAY6.md`
+Installing Java and Jenkins
 
----
+Jenkins setup on EC2
 
-### 📌 Day 7 – Automated Deployment (CI/CD)
-- Installing Apache Web Server
-- Creating deployment pipeline
-- Jenkins sudo permissions
-- Deploying `index.html` automatically
-- End-to-end CI/CD execution
+Creating Freestyle jobs
 
-📄 File: `DAY7.md`
+Connecting Jenkins with GitHub
 
----
+📄 File: DAY4.md
 
-## 🔁 CI/CD Workflow Overview
+📌 Day 5 – GitHub Webhooks & Automated Builds
 
-1. Developer pushes code to GitHub
-2. GitHub webhook triggers Jenkins
-3. Jenkins pulls latest code
-4. Build & Test stages run
-5. Application is deployed automatically to Apache server
-6. Website becomes live without manual intervention
+GitHub webhook configuration
 
----
+Auto-triggering Jenkins jobs on code push
 
-## 📜 Jenkinsfile (Pipeline as Code)
+Jenkins–GitHub integration
 
-```groovy
+Validating webhook deliveries
+
+📄 File: DAY5.md
+
+📌 Day 6 – Jenkins Pipeline using Jenkinsfile
+
+Declarative pipeline syntax
+
+Creating a Jenkinsfile
+
+Pipeline stages: Checkout, Build, Test
+
+Pipeline-as-Code concept
+
+📄 File: DAY6.md
+
+📌 Day 7 – Automated Deployment (CI/CD)
+
+Installing Apache Web Server
+
+Creating a deployment pipeline
+
+Configuring Jenkins sudo permissions
+
+Automated deployment of index.html
+
+End-to-end CI/CD execution
+
+📄 File: DAY7.md
+
+🔁 CI/CD Workflow Overview
+
+Developer pushes code to GitHub
+
+GitHub Webhook triggers Jenkins
+
+Jenkins pulls the latest code
+
+Build and Test stages are executed
+
+Application is automatically deployed to the Apache Web Server
+
+Website goes live without any manual intervention
+
+📜 Jenkinsfile (Pipeline as Code)
 pipeline {
     agent any
 
@@ -157,13 +161,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Build completed'
+                echo 'Build completed successfully'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Tests passed'
+                echo 'All tests passed'
             }
         }
 
@@ -196,9 +200,9 @@ http://<EC2-PUBLIC-IP>
 
 Real-world CI/CD pipeline implementation
 
-Jenkins automation & pipelines
+Jenkins automation and pipelines
 
-GitHub Webhooks
+GitHub Webhooks integration
 
 Linux server management
 
@@ -216,14 +220,12 @@ Nginx reverse proxy
 
 Rollback strategy
 
-Monitoring (Prometheus & Grafana)
+Monitoring using Prometheus & Grafana
 
-Cloud-native CI/CD
+Cloud-native CI/CD pipelines
 
 🤝 Connect With Me
 
 GitHub: https://github.com/Sagarhs12
 
 ⭐ If you found this project useful, consider giving it a star!
-
-
